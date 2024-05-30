@@ -18,7 +18,7 @@ This serves as a basis for demonstration of interchain accounts e2e functionalit
 
 ```
 $HERMES_BINARY --config $CONFIG_DIR keys add --key-name testkey_1 --chain test-1 --mnemonic-file <(echo "$MNEMONIC_1")
-$HERMES_BINARY --config $CONFIG_DIR keys add --key-name testkey_2 --chain test-2 --mnemonic-file <(echo "$MNEMONIC_2")
+$HERMES_BINARY --config $CONFIG_DIR keys add --key-name testkey_2 --chain testy-2 --mnemonic-file <(echo "$MNEMONIC_2")
 ```
 
 - Execute the script

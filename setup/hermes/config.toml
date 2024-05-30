@@ -112,7 +112,7 @@ trust_threshold = { numerator = '1', denominator = '3' }
 address_type = { derivation = 'cosmos' }
 
 [[chains]]
-id = 'test-2'
+id = 'testy-2'
 rpc_addr = 'http://gaia-node:26657'
 grpc_addr = 'http://gaia-node:9090'
 event_source = { mode = 'push', url = 'ws://gaia-node:26657/websocket', batch_delay = '200ms' }

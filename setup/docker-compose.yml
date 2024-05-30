@@ -27,7 +27,7 @@ services:
       - 9090:9090
     environment:
       - BINARY=gaiad
-      - CHAINID=test-2
+      - CHAINID=testy-2
       - STAKEDENOM=uatom
       - ALLOW_ICA_EXEC=yes
       - RUN_BACKGROUND=0

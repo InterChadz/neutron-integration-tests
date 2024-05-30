@@ -21,4 +21,5 @@ USER 0
 
 CMD sh /opt/node/setup/init.sh && \
   sh /opt/node/setup/init-gaiad.sh && \
+  sed -i -e 's/"voting_period": "172800s"/"voting_period": "30s"/g' /opt/gaia/data/test-1/config/genesis.json && \
   sh /opt/node/setup/start.sh

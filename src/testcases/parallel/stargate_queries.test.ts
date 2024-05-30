@@ -173,7 +173,7 @@ describe('Neutron / Simple', () => {
       expect(res.client_state['@type']).toBe(
         '/ibc.lightclients.tendermint.v1.ClientState',
       );
-      expect(res.client_state.chain_id).toBe('test-2');
+      expect(res.client_state.chain_id).toBe('testy-2');
     });
 
     test('ibc consensus state should work', async () => {
